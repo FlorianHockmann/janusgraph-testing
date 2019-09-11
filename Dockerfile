@@ -1,6 +1,6 @@
 FROM openjdk:8-jdk
 
-ENV JANUS_VERSION=0.3.0
+ENV JANUS_VERSION=0.4.0
 
 RUN curl -fSL https://github.com/JanusGraph/janusgraph/releases/download/v${JANUS_VERSION}/janusgraph-${JANUS_VERSION}-hadoop2.zip -o janusgraph.zip && \
     unzip janusgraph.zip && \
